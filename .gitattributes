@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ignore all test and documentation with "export-ignore"
+/.vscode/      export-ignore
+/.editorconfig export-ignore
+/.git*         export-ignore
+
+# Do not try and merge these files
+Cargo.lock -diff
